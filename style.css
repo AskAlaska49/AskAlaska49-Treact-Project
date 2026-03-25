@@ -63,6 +63,14 @@ li {
     list-style-type: none;
 }
 
+/* .flex {
+    display:flex;
+}
+
+.flex-1 {
+    flex: 1;
+} */
+
 .row {
     width: 100%;
     max-width: 1280px;
