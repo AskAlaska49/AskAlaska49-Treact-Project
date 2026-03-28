@@ -325,16 +325,12 @@ header .row {
 }
 
 .header__img--wrapper {
+    width: 60%;
     box-sizing: border-box;
     display: flex;
     margin: 0 auto;
 }
 
-.header__img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /* 
 
@@ -458,7 +454,17 @@ MOBILE RESPONSIVENESS ↓
 
 */
 
+/* MOBLE PHONES */
 
+@media (max-width: 1024px) {
+    .nav__link--list {
+        display: none;
+    }
+}
+
+
+
+/* 
 @media(max-width: 1280px) {
     header .row {
         align-items: flex-end;
@@ -506,19 +512,14 @@ MOBILE RESPONSIVENESS ↓
         margin-bottom: 80px;
     }
 }
+*/
 
 
 
 
 
 
-/* MOBLE PHONES */
 
-@media (max-width: 1024px) {
-    .nav__link--list {
-        display: none;
-    }
-}
 
 
 
