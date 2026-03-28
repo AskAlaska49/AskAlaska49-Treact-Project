@@ -457,14 +457,29 @@ MOBILE RESPONSIVENESS ↓
 
 */
 
-/* MOBLE PHONES */
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .nav__link--list {
         display: none;
     }
+    .btn__menu {
+        display: block;
+    }
+    .header__description {
+        flex-direction: column;
+        text-align: center;
+    }
+    .header__img--wrapper {
+        width: 90%;
+    }
 }
 
+
+
+
+
+
+/* MOBLE PHONES */
 
 /*
 @media (max-width: 768px) {
@@ -535,24 +550,6 @@ MOBILE RESPONSIVENESS ↓
     }
 }
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Examples for other devices MOBILE RESPONSIVENESS
 
