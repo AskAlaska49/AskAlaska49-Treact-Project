@@ -459,18 +459,31 @@ MOBILE RESPONSIVENESS ↓
 
 /* MOBLE PHONES */
 
-@media (max-width: 1024px) {
+@media (max-width: 480px) {
     .nav__link--list {
-        display: block;
+        display: none;
     }
 }
 
 
+/*
 @media (max-width: 768px) {
     .btn__menu {
         display: block;
     }
 }
+*/
+
+/*
+
+@media (max-width: 1024px) {
+    .nav__link--list {
+        display: none;
+    }
+}
+
+*/
+
 
 
 /* 
