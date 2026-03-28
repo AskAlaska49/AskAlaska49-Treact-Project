@@ -50,7 +50,7 @@ p {
 img {
     width: 100%;
     /*overflow-clip-margin: content-box;
-    overflow: clip;*/
+    overflow: clip; */
 }
 
 h1 {
@@ -263,7 +263,10 @@ header .row {
 }
 
 .header__description {
-    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .header__description--title {
@@ -325,7 +328,7 @@ header .row {
 }
 
 .header__img--wrapper {
-    width: 60%;
+    width: 50%;
     box-sizing: border-box;
     display: flex;
     margin: 0 auto;
@@ -458,10 +461,16 @@ MOBILE RESPONSIVENESS ↓
 
 @media (max-width: 1024px) {
     .nav__link--list {
-        display: none;
+        display: block;
     }
 }
 
+
+@media (max-width: 768px) {
+    .btn__menu {
+        display: block;
+    }
+}
 
 
 /* 
