@@ -63,14 +63,6 @@ li {
     list-style-type: none;
 }
 
-/*.flex {
-    display:flex;
-}
-
-.flex-1 {
-    flex: 1;
-} */
-
 .row {
     width: 100%;
     max-width: 1280px;
@@ -517,7 +509,11 @@ MOBILE RESPONSIVENESS ↓
 
 /* MOBLE PHONES */
 
-
+@media (max-width: 1024px) {
+    .nav__link--list {
+        display: none;
+    }
+}
 
 
 
