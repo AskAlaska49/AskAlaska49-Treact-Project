@@ -328,7 +328,12 @@ header .row {
     box-sizing: border-box;
     display: flex;
     margin: 0 auto;
+}
 
+.header__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* 
