@@ -65,6 +65,10 @@ h1 {
     line-height: 1.25;
 }
 
+.section__para {
+    font-size: 16px;
+  }
+
 .section__tag {
     color: #6415ff;
 }
@@ -445,6 +449,11 @@ QUALITY WORK ↓
     align-items: center;
 }
 
+
+
+.quality__img--wrapper {
+    width: 50%;
+  }
 
 /* 
 
