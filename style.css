@@ -65,6 +65,9 @@ h1 {
     line-height: 1.25;
 }
 
+.section__tag {
+    color: #6415ff;
+}
 
 li {
     list-style-type: none;
