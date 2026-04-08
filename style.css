@@ -59,7 +59,7 @@ h1 {
     line-height: 1.25;
 }
 
-h2 {
+.section__title {
     font-size: 36px;
     color: #1a202c;
     line-height: 1.25;
