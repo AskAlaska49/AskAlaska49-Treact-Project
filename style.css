@@ -468,6 +468,15 @@ STEPS ↓
     align-items: center;
 }
 
+/* trying new steps*/
+
+.steps__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1a202c;
+}
+
 
 /* 
 
