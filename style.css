@@ -448,9 +448,8 @@ FEATURES ↓
 
 
 
-
-QUALITY WORK ↓
-
+/*
+QUALITY WORK
 */
 
 
@@ -460,10 +459,50 @@ QUALITY WORK ↓
     align-items: center;
 }
 
+#quality .section__title,
+#values .section__title {
+    line-height: 1.25;
+}
 
+#quality .btn {
+    margin-top: 32px;
+}
 
+.quality__description {
+    max-width: 576px;
+    padding-right: 64px;
+}
+
+.quality__description,
 .quality__img--wrapper {
     width: 50%;
+}
+
+.quality__img--wrapper {
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid rgb(229, 231, 235);
+    position: relative;
+    margin: 0 56px;
+    z-index: 2;
+  }
+
+  .quality__grid {
+    position: absolute;
+    transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+    width: 80px;
+    height: 80px;
+    right: 0px;
+    bottom: 0px;
+    fill: rgb(100, 21, 255);
+    --tw-text-opacity: 1;
+    color: rgb(100, 21, 255, var(--tw-text-opacity));
+    z-index: 0;
+    display: block;
+  }
+
+  .quality__img {
+    z-index: 1;
   }
 
 /* 
@@ -484,26 +523,23 @@ STEPS ↓
     position: relative;
 }
 
-.step__description {
+.steps__description,
+.steps__img--wrapper {
     width: 50%;
+}
+
+.steps__description {
+    padding: 32px 0;
     padding-left: 64px;
 }
 .steps__img--wrapper {
     width: 50%;
 }
 
-.step__img {
+.steps__img {
     z-index: 2;
 }
 
-.step__description {
-    display: flex;
-    flex-direction: column;
-    margin-left: 24px;
-    max-width: 320px;
-    padding: 32px 0;
-    padding-left: 64px;
-}
 
 .step {
     display: flex;
@@ -516,6 +552,20 @@ STEPS ↓
     font-weight: 600;
     color: #cbd5e0;
     line-height: 1;
+}
+
+.step__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #243e63;
+    line-height: 1;
+}
+
+.step__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    max-width: 320px;
 }
 
 .step__title {
@@ -539,16 +589,12 @@ STEPS ↓
     left: 50%;
     width: 10rem;
     height: 10rem;
-    background-color: #6415ff;
     border-radius: 16px;
     opacity: 0.8;
     transform: translateX(-50%);
     z-index: -10;
     fill: currentColor;
 }
-
-
-
 
 
 /* 
