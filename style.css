@@ -465,7 +465,7 @@ QUALITY WORK
 }
 
 #quality .btn {
-    margin-top: 32px;
+    width: auto;
 }
 
 .quality__description {
@@ -612,21 +612,20 @@ VALUES ↓
     margin: 0 auto;
 }
 
-#values .section__title {
+#value .section__title {
     margin-top: 16px;
     margin-bottom: 32px;
 }
 
 #value .btn {
-    margin-top: 48px;
+    width: auto;
 }
 
-.values {
+.value {
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-   
 }
 
 .value__description {
@@ -657,11 +656,8 @@ VALUES ↓
 
 .value__img--wrapper-dollar,
 .value__img--wrapper-case {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-right: 12px;
+    margin-top: 0px;
 }
 
 .value__img--wrapper-dollar {
