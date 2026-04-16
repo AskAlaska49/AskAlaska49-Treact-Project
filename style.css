@@ -662,16 +662,24 @@ VALUES ↓
     width: 50%;
 }
 
-.value__img--wrapper-dollar {
-    background-color: #9ae6b4;
-    border-radius: 50%;
-}
- 
-.value__img--wrapper-case {
-    background-color: #feb2b2;
-    border-radius: 50%;
+figure.orange {
+  width: 100%;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 4px;
+  background-color: #feb2b2;
 }
 
+figure.green {
+  width: 100%;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 4px;
+}
 
 .value__name {
     font-size: 20px;
