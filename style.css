@@ -639,8 +639,8 @@ VALUES ↓
 }
 
 .values__list {
+    flex-direction: row;
     display: flex;
-    flex-direction: column;
     margin-left: 0px;
     margin-right: 0px;
     max-width: none;
@@ -655,11 +655,11 @@ VALUES ↓
    width: 100%;
 }
 
-.value__img--wrapper-dollar,
-.value__img--wrapper-case {
+.value__img--wrapper {
     margin-right: 12px;
     margin-top: 0px;
     padding: 8px;
+    width: 50%;
 }
 
 .value__img--wrapper-dollar {
@@ -672,9 +672,6 @@ VALUES ↓
     border-radius: 50%;
 }
 
-.value__img--wrapper {
-    width: 50%;
-}
 
 .value__name {
     font-size: 20px;
