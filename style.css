@@ -722,6 +722,37 @@ PRICING ↓
     align-items: center;
 }
 
+#pricing . .section__para {
+    max-width: 576px;
+    text-align: center;
+}
+
+.plan {
+    position: relative;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    max-width: 24rem;
+    border-radius: 0.5rem;
+    background-color:  rgb(255 255 255);
+    margin-right: 2rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    color: rgb(26 32 44);
+    box-shadow: box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;;
+}
+
+
+
+
+
+
+
 /* 
 
 TESTIMONIALS ↓
