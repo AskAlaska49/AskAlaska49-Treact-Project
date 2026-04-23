@@ -737,13 +737,9 @@ PRICING ↓
     width: 100%;
     max-width: 24rem;
     border-radius: 0.5rem;
-    background-color:  rgb(255 255 255);
     margin-right: 2rem;
     padding-top: 0.5rem;
     text-align: center;
-    color: rgb(26 32 44);
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-    rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 
 .plan__stripe {
@@ -820,10 +816,8 @@ PRICING ↓
 
 .plan__button {
   border-radius: 0.25rem;
-  background-color: rgb(100 21 255);
   padding: 0.75rem 2rem;
   font-weight: 700;
-  color: rgb(247 250 252);
   transition: all 300ms ease;
   width: 100%;
   border-radius: 9999px;
@@ -832,7 +826,29 @@ PRICING ↓
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  cursor: pointer;
 }
+
+
+.plan__button-personal {
+  color: #f7fafc;
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%);
+}
+
+.plan__button-business {
+   color: #fd8578;
+  background: linear-gradient(
+    115deg,
+    rgb(255, 128, 114) 0%,
+    rgb(250, 164, 148) 100%);
+}
+
+
+
+
 
 .plan__button:hover {
   transform: translate(1px, -1px);
@@ -842,8 +858,9 @@ PRICING ↓
 }
 
 .plan__stripe,
-.plan__button {
-  color: #f7fafc;
+.plan__button, 
+.plan__button-personal {
+color: #f7fafc;
   background: linear-gradient(
     115deg,
     rgb(56, 178, 172) 0%,
