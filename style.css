@@ -752,6 +752,22 @@ PRICING ↓
     border-top-right-radius: 0.5rem;
 }
 
+.plan__stripe-personal {
+    background-color: rgb(56, 178, 172);
+}
+
+.plan__stripe-business,
+.plan__middle-business,
+.plan__bottom-business { 
+    background:
+    rgb(102, 126, 234) 100%
+}
+
+.plan__stripe-enterprise {
+    background-color: #FF645E;
+}
+
+
 .plan__top {
     display: flex;
     flex-direction: column;
@@ -839,13 +855,13 @@ PRICING ↓
 }
 
 .plan__button-business {
-  color: white;
-   background-color: #6415ff;
+  color: #6415ff;
+   background-color: white;
 }
 
 .plan__button-enterprise {
   color: black;
-  background color: FF645E;
+  background-color: #FF645E;
 }
 
 
@@ -876,18 +892,19 @@ color: #f7fafc;
 }
 
 .plan__duration-personal,
-.plan__feature-individual,
-.plan__duration-enterprise {
+.plan__duration-enterprise
+{
   color: #718096;
 }
+
 
 .plan__duration-business {
   color: #fff;
 }
 
-.plan__middle,{
+.plan__middle { 
   border-top: 2px solid rgb(229, 231, 235);
-  border-bottom: 2px solid rgb(229, 231, 235);
+  border-bottom: 2px solid rgb(229, 231, 235); 
 }
 
 .plan__middle {
