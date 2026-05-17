@@ -756,11 +756,8 @@ PRICING ↓
     background-color: rgb(56, 178, 172);
 }
 
-.plan__stripe-business,
-.plan__middle-business,
-.plan__bottom-business { 
-    background:
-    rgb(102, 126, 234) 100%
+.plan:nth-child (2) {
+    background: linear-gradient(135deg rgb(76, 81, 191) 0%, rgb(102, 126,234) 100%);
 }
 
 .plan__stripe-enterprise {
@@ -778,8 +775,8 @@ PRICING ↓
 }
 
 .plan__middle {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
     display: flex;
     flex-direction: column;
     flex: 1 1 0%;
@@ -824,13 +821,11 @@ PRICING ↓
 }
 
 
-.plan: .plan__name,
-.plan: .plan__price,
-.plan: .plan__name,
-.plan: .plan__price,
-.plan: .plan__target,
-.plan: .plan__duration,
-.plan: .plan__feature {
+.plan:nth-child (2) .plan__name,
+.plan:nth-child (2) .plan__price,
+.plan:nth-child (2) .plan__duration-business,
+.plan:nth-child (2) .plan__target,
+.plan:nth-child (2) .plan__feature {
   color: #f7fafc;
 }
 
@@ -871,11 +866,9 @@ PRICING ↓
 }
 
 .plan__button-enterprise {
-  color: black;
+  color: #f7fafc;
   background-color: #FF645E;
 }
-
-
 
 .plan__button:hover {
   transform: translate(1px, -1px);
@@ -918,7 +911,13 @@ color: #f7fafc;
   border-bottom: 2px solid rgb(229, 231, 235); 
 }
 
-.plan__middle {
+.plan:nth-child(1) .plan__middle,
+.plan:nth-child(3) .plan__middle {
+  border-top: 2px solid rgb(229, 231, 235);
+  border-bottom: 2px solid rgb(229, 231, 235);
+}
+
+.plan:nth-child(2) .plan__middle {
   border-top: 2px solid rgb(102, 126, 234);
   border-bottom: 2px solid rgb(102, 126, 234);
 }
