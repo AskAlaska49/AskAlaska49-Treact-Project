@@ -935,8 +935,8 @@ section #testimonials {
   align-items: center;
   justify-content: space-between;
 }
-.testimonials__img,
-.testimonials__description {
+.testimonial__img,
+.testimonial__description {
   width: 50%;
 }
 .testimonials__description {
@@ -994,8 +994,18 @@ section #testimonials {
 .testimonial__img {
   width: 80px;
   height: 80px;
-  border-radius: 50%;
+  border-radius: 50px;
+  box-sizing: border-box;
 }
+
+.testimonial__profile--img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
 .testimonial__role {
   color: #7c8ba1;
   font-weight: 500;
@@ -1028,6 +1038,7 @@ section #testimonials {
   display: inline-block;
   height: 1.25rem;
   width: 1.25rem;
+  columns: auto;
 }
 
 .divider {
