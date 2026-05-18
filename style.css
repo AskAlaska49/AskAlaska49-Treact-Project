@@ -936,7 +936,7 @@ section #testimonials {
   justify-content: space-between;
 }
 .testimonial__img,
-.testimonial__description {
+.testimonials__description {
   width: 50%;
 }
 .testimonials__description {
@@ -944,9 +944,11 @@ section #testimonials {
   flex-direction: column;
   padding-left: 64px;
 }
-#testimonial .section__title {
-  margin-bottom: 24px;
+#testimonials .section__title {
+  font-size: 48px;
   line-height: 1.25;
+  max-width: none;
+  white-space: nowrap;
 }
 .testimonial {
   margin-top: 40px;
