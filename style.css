@@ -944,7 +944,7 @@ section #testimonials {
   flex-direction: column;
   padding-left: 64px;
 }
-#testimonials .section__title {
+#testimonial .section__title {
   margin-bottom: 24px;
   line-height: 1.25;
 }
@@ -969,6 +969,7 @@ section #testimonials {
   line-height: 1.625;
   font-size: 1.25rem;
   font-weight: 700;
+  padding-left: 24px;
 }
 
 .testimonial__para {
@@ -1010,6 +1011,7 @@ section #testimonials {
   color: #7c8ba1;
   font-weight: 500;
   line-height: 1.5;
+  padding-left: 24px;
 }
 .testimonial__buttons {
   display: flex;
