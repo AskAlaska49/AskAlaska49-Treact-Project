@@ -1347,12 +1347,13 @@ MOBILE RESPONSIVENESS ↓
     padding-right: 2rem;
   }
   .testimonials__img {
-    width: 40%;
+    width: 100%;
   }
   .testimonials__description {
-    width: calc(100% - 40%);
+    width: 100%;
   }
-}
+
+
 @media (max-width: 1024px) {
   .nav__links {
     display: none;
@@ -1602,7 +1603,7 @@ MOBILE RESPONSIVENESS ↓
     padding-right: 2rem;
   }
   .testimonials__img {
-    width: 40%;
+    width: 100%%;
   }
   .testimonials__description {
     width: calc(100% - 40%);
