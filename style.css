@@ -1314,7 +1314,6 @@ MOBILE RESPONSIVENESS ↓
   header .row {
     align-items: flex-end;
   }
-
   .steps__grid {
     height: 5rem;
     width: 5rem;
@@ -1341,7 +1340,6 @@ MOBILE RESPONSIVENESS ↓
   .plan__button {
     max-width: none;
   }
-
   .plan__bottom {
     padding-left: 2rem;
     padding-right: 2rem;
