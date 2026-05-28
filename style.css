@@ -926,7 +926,7 @@ PRICING ↓
   }
 }
 
-@keyframes animation-plans slideInRight {
+@keyframes animation-plans {
   0% {
     transform: scale(0);
   }
