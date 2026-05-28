@@ -742,6 +742,7 @@ PRICING ↓
   color: rgb(26 32 44);
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    animation: slideInRight 1s ease-in forwards;
 }
 .plan__stripe {
   position: absolute;
@@ -903,6 +904,33 @@ PRICING ↓
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
+  animation: slideInRight 1s ease-in forwards;
+}
+
+
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%); /* Start completely off-screen to the right */
+    opacity: 0;                   /* Optional: fade it in too */
+  }
+  to {
+    transform: translateX(0);    /* End at original position */
+    opacity: 1;
+  }
+}
+
+
+@keyframes animation-plans{
+  0% {
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 
@@ -1055,21 +1083,11 @@ section #testimonials {
 }
 
 
-
-
-
-
-
-
-
-
-
 /* 
 
 START / CALL TO ACTION ↓
 
 */
-
 
 
 #start .row {
@@ -1441,11 +1459,13 @@ footer {
   .plans {
     flex-direction: column;
     align-items: center;
+    animation: slideInRight 1s ease-in forwards;
   }
 
   .plan {
     margin-right: 0px;
   }
+
   #features .section__title,
   #pricing .section__title {
     font-size: 48px;
@@ -1462,31 +1482,7 @@ footer {
   #start .container {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    animation: animate-start.container 500ms 200ms ease backwards;
   }
-
-@keyframes fade-right {
-  0% {
-    opacity: 0;
-    transform: translateX(-20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes animate-start.container {
-  0% {
-    transform: scale(0);
-  }
-  80% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 
   .start__row {
     flex-direction: column;
