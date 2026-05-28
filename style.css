@@ -907,8 +907,6 @@ PRICING ↓
   animation: slideInRight 1s ease-in forwards;
 }
 
-
-
 @keyframes slideInRight {
   from {
     transform: translateX(100%); /* Start completely off-screen to the right */
@@ -920,8 +918,7 @@ PRICING ↓
   }
 }
 
-
-@keyframes animation-plans{
+@keyframes animation-plans slideInRight {
   0% {
     transform: scale(0);
   }
