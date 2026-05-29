@@ -35,7 +35,36 @@ body {
 
 a {
     display: inline;
+    position: relative;
     text-decoration: none;
+    transition: opacity 300ms ease;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.link__hover-effect:after {
+    content: "";
+    position:absolute
+    display: block;
+    width: 0;
+    bottom: 3px;
+    height: 2px;
+    right: 0;
+    transition: width 300ms ease;
+}
+
+.link__hover-effect:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.link__hover-effect-black:after {
+  background-color: #000000;
+}
+.link__hover-effect-white:after {
+    background-color: #ffffff;
 }
 
 p {
@@ -1537,6 +1566,12 @@ footer {
   #values .row {
     flex-direction: column-reverse;
   }
+  
+  #testimonials .section__title {
+    white-space: normal;
+    font-size: 36px;
+  }
+        
   .quality__description,
   .steps__description,
   .values__description,
@@ -1545,6 +1580,7 @@ footer {
     margin-top: 64px;
     text-align: center;
   }
+
   .quality__description,
   .quality__img--wrapper,
   .steps__description,
