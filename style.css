@@ -1356,6 +1356,14 @@ footer {
   opacity: 0.5;
 }
 
+.h1 arrow {
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+}
 
 
 
