@@ -45,14 +45,14 @@ a:hover {
 }
 
 .link__hover-effect:after {
-    content: "";
-    position:absolute
-    display: block;
-    width: 0;
-    bottom: 3px;
-    height: 2px;
-    right: 0;
-    transition: width 300ms ease;
+content: "";
+position: absolute;
+display: block;
+width: 0;
+bottom: -6px;
+height: 2px;
+right: 0;
+transition: width 300ms ease;
 }
 
 .link__hover-effect:hover:after {
@@ -60,9 +60,10 @@ a:hover {
     left: 0;
 }
 
-.link__hover-effect-black:after {
-  background-color: #000000;
+.link__hover-effect--black:after {
+background-color: #000000;
 }
+
 .link__hover-effect-white:after {
     background-color: #ffffff;
 }
