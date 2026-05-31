@@ -1397,7 +1397,7 @@ footer {
   cursor: pointer;
 }
 .footer__my-link:hover:after {  
-  opacity: 0;
+  opacity: 1;
   transition: 300ms;
   text-decoration: underline;
   background: white;
