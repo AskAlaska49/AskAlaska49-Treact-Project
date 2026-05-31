@@ -1371,36 +1371,45 @@ footer {
   margin-left: -100px;
   margin-right: 100px;
   margin-top: 4%;
+  display: flex;
+  margin-top: 32px;
 }
 
 .footer__my-link {
   color: #f7fafc;
-  font-size: 14px;
+  font-size: 22px;
   margin-top: 12px;
   line-height: 1.5;
   font-weight: 500;
   position: relative;
   cursor: pointer;
   font-size: 14px;
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
 }
+
 .footer__my-link:after {  
   content: "";
   position: absolute;
   left: 0;
-  bottom: -6px;
+  bottom: -4px;
   height: 2px;
-  width: 100%;
+  width: 0;
   background: #fff;
   transition: all 300ms ease;
   opacity: 0;
   font-size: 14px;
   cursor: pointer;
+  Transition: width 300ms ease;
 }
+
 .footer__my-link:hover:after {  
   opacity: 1;
   transition: 300ms;
   text-decoration: underline;
   background: white;
+  width: 100%;
 }
 
 
