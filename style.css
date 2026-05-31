@@ -1169,6 +1169,7 @@ main {
   z-index: 2;
 }
 .start__button {
+  display: inline-block;
   padding: 20px 40px;
   border-radius: 500px;
   font-weight: 700;
